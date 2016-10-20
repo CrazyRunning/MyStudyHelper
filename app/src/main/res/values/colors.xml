@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tvSelected">#5793CF</color>
+    <color name="tvUnSelected">#858685</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="title_color">#333333</color>
+    <color name="holo_green_light">#ff99cc00</color>
+
+    <!-- BaseColor -->
+    <color name="base_bg">#F8F8F8</color>
+    <color name="ccccccc">#cccccc</color>
+    <color name="black">#000000</color>
+    <color name="red">#FFE84248</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Sintn_CustomAttributes_thumbColor">#66aaaaaa</color>
+    <color name="c88FFFFFF">#88FFFFFF</color>
+    <color name="trans_black">#88000000</color>
+    <color name="trans_white">#88ffffff</color>
+    <color name="c88000000">#88000000</color>
+    <color name="divider_in_item">#d8d8d8</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="blue">#32A9DC</color>
+    <!-- A light Holo shade of green -->
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="on_pressed_or_background">#ebebeb</color>
+
+    <!-- MainActivity -->
+    <color name="c61626f">#61626f</color>
+    <color name="c999999">#999</color>
+    <color name="cf75a53">#f75a53</color>
+    <color name="cf0f0f0">#f0f0f0</color>
+    <color name="ca8a8a8">#a8a8a8</color>
+    <color name="c333333">#333333</color>
+    <color name="c444444">#444444</color>
+    <color name="cfff8f8">#fff8f8</color>
+    <color name="cf84f58">#f84f58</color>
+    <color name="cfffbf5">#fffbf5</color>
+    <color name="cf99e00">#f99e00</color>
+    <color name="cf9f9fc">#f9f9fc</color>
+    <color name="c675aac">#675aac</color>
+    <color name="cf8f7f6">#f8f7f6</color>
+    <color name="c4e3720">#4e3720</color>
+    <color name="cfbfcf6">#fbfcf6</color>
+    <color name="c98ac10">#98ac10</color>
+    <color name="cf8f8f8">#f8f8f8</color>
+    <color name="c57586a">#57586a</color>
+    <color name="c00abf3">#00abf3</color>
+    <color name="light_green">#00C9C9</color>
+    <!-- MainColor -->
+    <color name="background_dark">#f5f6f7</color>
+    <color name="background0">#E5E5E5</color>
+    <color name="menu_press">#d4d6d9</color>
+    <color name="frame_bg">#FFF2F4F7</color>
+    <color name="frame">#FFCED2D9</color>
+    <color name="first_class_text">#FF000000</color>
+    <color name="second_class_text">#FF838891</color>
+    <color name="third_class_text">#FFC4C7CC</color>
+    <color name="call_back_def">#20b897</color>
+    <color name="call_back_press">#1a9379</color>
+    <color name="f7f8fa">#f7f8fa</color>
+    <color name="deep_red">#FFD8353D</color>
+    <color name="date_preed">#f2f3f4</color>
+    <color name="deep_white">#FFF7F8FA</color>
+    <color name="login_button">#39a3e2</color>
+    <color name="login_button_press">#3392cb</color>
+    <color name="light_text">#666</color>
+    <color name="dark_text">#333</color>
+    <color name="personal_include_text">#c7c7c7</color>
+
+
+    <color name="view_below_title">#dbdbdb</color>
+
+    <color name="performance_Item_color1">#FEF2F2</color>
+    <color name="performance_Item_color2">#E6E9ED</color>
+
+    <!-- -->
+    <color name="records_list_title">#cfd3dd</color>
+
+    <!-- userInfo -->
+    <color name="line_in_userInfoActivity">#eaeaea</color>
+
+    <!-- recordsItem -->
+    <color name="text_left_color">#666</color>
+    <color name="text_right_color">#333</color>
+    <!-- records -->
+    <color name="bg_btn_of_statistic">#DDD</color>
+    <color name="bg_btn_of_statistic_select">#029EDF</color>
+    <color name="stroke_btn_of_statistic">#029EDF</color>
+
+    <!-- recordsInfo -->
+    <color name="special_color_in_recordInfo">#00abf3</color>
+
+    <!-- myself -->
+    <color name="bg_of_myself">#f0f0f0</color>
+    <color name="myself_text">#444</color>
+
+    <!--  -->
+    <color name="light_blue">#eaf6fc</color>
+    <color name="middle_blue">#bde4f6</color>
+
+    <!-- managerActivity -->
+    <color name="textColor_of_manager">#EF9D22</color>
+    <color name="md__transparent">#00000000</color>
+    <color name="md__defaultBackground">#FF555555</color>
+    <color name="background">#F7F4F0</color>
+    <color name="green">#00ec00</color>
+    <color name="gray">#C8BC68</color>
+    <color name="scu__defaultCourseDevider">#ffc9c9c9</color>
+
+    <color name="common_red">#F05F4C</color>
+</resources>

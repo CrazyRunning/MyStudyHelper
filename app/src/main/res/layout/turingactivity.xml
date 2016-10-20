@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/activity_turing"
+    android:background="@color/blue"
+    tools:context="com.my_swpu.mystudyhelper.activity.TuringActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background0">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue">
+        <LinearLayout
+            android:id="@+id/ll_back_on_turingactivity"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_add_acount"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imgBackOnMWA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_normal"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/title_activity_turing"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/rlTitle">
+    <ScrollView
+
+        android:id="@+id/scrollView_chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/chat" >
+
+        <LinearLayout
+            android:id="@+id/ll_turing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/xi_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp" >
+
+        <EditText
+            android:id="@+id/et_send"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.82"
+            android:background="@drawable/xi_send_bg"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/iv_send"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/send_selector"
+            android:scaleType="centerCrop"
+            android:padding="5dp"/>
+    </LinearLayout>
+    </LinearLayout>
+
+        </RelativeLayout>
+</RelativeLayout>

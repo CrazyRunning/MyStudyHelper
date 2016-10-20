@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:id="@+id/imgMovie"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="1dp"
+             />
+
+        <RelativeLayout
+            android:id="@+id/rl01"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp" 
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="1dp">
+
+            <TextView
+                android:id="@+id/tvMovieListTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:text="TextView" 
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+
+            <RatingBar
+                android:id="@+id/rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleSmall"
+                android:maxWidth="30dp"
+                android:maxHeight="30dp"
+                android:layout_alignLeft="@+id/tvMovieListTitle"
+                android:layout_below="@+id/tvMovieListTitle" 
+                android:layout_marginTop="2dp"/>
+            <TextView
+                android:id="@+id/tvMovieListRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/rb"
+                android:layout_toRightOf="@+id/rb"
+                android:textSize="12sp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rb"
+                android:layout_marginTop="8dp"
+                android:layout_alignLeft="@+id/tvMovieListTitle"
+                android:text="TextView" 
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

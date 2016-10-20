@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background0">
+
+    <RelativeLayout
+        android:id="@+id/rlTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue">
+
+        <LinearLayout
+            android:id="@+id/ll_menu"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_add_acount"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imgBackOnMWA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_overflow" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/myLocation"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:text="我的位置"
+            android:background="@drawable/selector_add_acount"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_subHead"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@+id/rlTitle"
+        android:background="#F7F6F4"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/swpu_main_TextDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:text="2015年6月30日 星期日"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/swpu_main_TextWeeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="12dp"
+            android:text="第19教学周"
+            android:textColor="#32A9DC"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl_subHead"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:background="@color/background0">
+    <LinearLayout
+        android:id="@+id/ll_item0"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_course"
+            style="@style/ll_item_style"
+            android:layout_marginRight="1dp">
+
+            <com.my_swpu.mystudyhelper.view.RoundImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_btn_main_func_course" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/title_activity_course"
+                android:textSize="16sp"
+                android:textColor="@color/trans_black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_exam"
+            style="@style/ll_item_style"
+            android:layout_marginLeft="1dp">
+            <com.my_swpu.mystudyhelper.view.RoundImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_btn_main_func_exam"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/title_activity_exam"
+                android:textSize="16sp"
+                android:textColor="@color/trans_black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_item1"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/ll_item0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_grade"
+            style="@style/ll_item_style"
+            android:layout_marginRight="1dp">
+            <com.my_swpu.mystudyhelper.view.RoundImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_btn_main_func_grade"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/title_activity_rate"
+                android:textSize="16sp"
+                android:textColor="@color/trans_black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_rate"
+            style="@style/ll_item_style"
+            android:layout_marginLeft="1dp">
+            <com.my_swpu.mystudyhelper.view.RoundImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/translate"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/title_activity_translate"
+                android:textSize="16sp"
+                android:textColor="@color/trans_black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_item2"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/ll_item1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_release"
+            style="@style/ll_item_style"
+            android:layout_marginRight="1dp">
+            <com.my_swpu.mystudyhelper.view.RoundImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/xhr2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/title_activity_take_release"
+                android:textSize="16sp"
+                android:textColor="@color/trans_black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tuling"
+            style="@style/ll_item_style"
+            android:layout_marginLeft="1dp">
+            <com.my_swpu.mystudyhelper.view.RoundImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/tl0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/title_activity_turing"
+                android:textSize="16sp"
+                android:textColor="@color/trans_black"/>
+        </LinearLayout>
+
+    </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

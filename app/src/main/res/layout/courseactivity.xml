@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/blue"
+    tools:context="com.my_swpu.mystudyhelper.activity.CourseActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background0">
+        <RelativeLayout
+            android:id="@+id/rlTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blue">
+
+            <LinearLayout
+                android:id="@+id/ll_back_on_courseactivity"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/selector_add_acount"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/imgBackOnMWA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back_normal"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="我的课表"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tvCourseSetting"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="设置"
+                android:background="@drawable/selector_add_acount"
+                />
+        </RelativeLayout>
+
+    <TextView
+        android:layout_below="@+id/rlTitle"
+        android:id="@+id/test_empty"
+        style="@style/courseTableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/course_text_view_bg"
+        android:text="@string/empty" />
+
+    <TextView
+        android:layout_below="@+id/rlTitle"
+        android:id="@+id/test_monday_course"
+        style="@style/courseTableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_empty"
+        android:background="@drawable/course_text_view_bg"
+        android:text="@string/mon" />
+
+    <TextView
+        android:layout_below="@+id/rlTitle"
+        android:id="@+id/test_tuesday_course"
+        style="@style/courseTableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_monday_course"
+        android:background="@drawable/course_text_view_bg"
+        android:text="@string/tue" />
+
+    <TextView
+        android:layout_below="@+id/rlTitle"
+        android:id="@+id/test_wednesday_course"
+        style="@style/courseTableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_tuesday_course"
+        android:background="@drawable/course_text_view_bg"
+        android:text="@string/wen" />
+
+    <TextView
+        android:layout_below="@+id/rlTitle"
+        android:id="@+id/test_thursday_course"
+        style="@style/courseTableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_wednesday_course"
+        android:background="@drawable/course_text_view_bg"
+        android:text="@string/thu" />
+
+    <TextView
+        android:layout_below="@+id/rlTitle"
+        android:id="@+id/test_friday_course"
+        style="@style/courseTableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_thursday_course"
+        android:background="@drawable/course_text_view_bg"
+        android:text="@string/fri" />
+
+    <TextView
+        android:layout_below="@+id/rlTitle"
+        android:id="@+id/test_saturday_course"
+        style="@style/courseTableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_friday_course"
+        android:background="@drawable/course_text_view_bg"
+        android:text="@string/sta" />
+
+    <TextView
+        android:layout_below="@+id/rlTitle"
+        android:id="@+id/test_sunday_course"
+        style="@style/courseTableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_saturday_course"
+        android:background="@drawable/course_table_last_colum"
+        android:text="@string/sun" />
+
+    <ScrollView
+        android:id="@+id/scroll_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/test_empty"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:id="@+id/test_course_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </RelativeLayout>
+    </ScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>

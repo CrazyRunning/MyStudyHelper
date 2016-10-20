@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Menu_scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Menu_main_home"
+            style="@style/MenuDrawer.Widget.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_main_home"
+            android:text="@string/menu_main_home"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_main_fuse"
+            style="@style/MenuDrawer.Widget.Category"
+            android:textColor="@color/white"/>
+        
+        <TextView
+            android:id="@+id/Menu_main_personal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_main_personal"
+            android:text="@string/menu_main_personal"
+            style="@style/MenuDrawer.Widget.Item"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/Menu_main_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_main_message"
+            android:text="@string/menu_main_location"
+            style="@style/MenuDrawer.Widget.Item"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/Menu_main_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_main_options"
+            android:text="@string/menu_main_map"
+            style="@style/MenuDrawer.Widget.Item"
+            android:textColor="@color/white"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="操作"
+            style="@style/MenuDrawer.Widget.Category"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/Menu_main_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_main_feedback"
+            android:text="@string/menu_main_feedback"
+            style="@style/MenuDrawer.Widget.Item"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/Menu_main_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_main_update"
+            android:text="@string/menu_main_update"
+            style="@style/MenuDrawer.Widget.Item"
+            android:textColor="@color/white"/>
+        
+        <TextView
+            android:id="@+id/Menu_main_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_main_about"
+            android:text="@string/menu_main_about"
+            style="@style/MenuDrawer.Widget.Item"
+            android:textColor="@color/white"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_main_system"
+            style="@style/MenuDrawer.Widget.Category"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/Menu_main_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_main_logout"
+            android:text="@string/menu_main_logout"
+            style="@style/MenuDrawer.Widget.Item"
+            android:textColor="@color/white"/>
+        
+        <TextView
+            android:id="@+id/menu_main_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_main_exit"
+            android:text="@string/menu_main_exit"
+            style="@style/MenuDrawer.Widget.Item"
+            android:textColor="@color/white"/>
+        
+    </LinearLayout>
+</ScrollView>

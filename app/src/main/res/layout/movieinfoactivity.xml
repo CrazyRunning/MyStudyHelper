@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/blue"
+    tools:context="com.my_swpu.mystudyhelper.activity.MovieInfoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background0"
+        >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/moviebackground1" >
+
+        <ImageView
+            android:id="@+id/imgPost"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="#888888" />
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/imgPost"
+            android:layout_alignTop="@+id/imgPost"
+            android:text="评分"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvRatingNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvRating"
+            android:layout_below="@+id/tvRating"
+            android:layout_marginTop="14dp"
+            android:text="评分人数"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvRatingNum"
+            android:layout_below="@+id/tvRatingNum"
+            android:layout_marginTop="14dp"
+            android:text="电影类型"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvType"
+            android:layout_below="@+id/tvType"
+            android:layout_marginTop="14dp"
+            android:text="上映地点/时长"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvLocation"
+            android:layout_below="@+id/tvLocation"
+            android:layout_marginTop="14dp"
+            android:text="上映时间"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        >
+
+        <TextView
+            android:id="@+id/tvStarts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="演员列表"
+            android:textSize="14sp"
+            android:padding="3dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_above="@+id/fabBackOnMovies"
+        android:background="#97CEE8"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="电影详情"
+            android:textSize="15sp"
+            android:padding="3dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabBackOnMovies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/back_normal" />
+
+        </RelativeLayout>
+</RelativeLayout>

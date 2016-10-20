@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/ll_swpu_icon"
+        android:background="@drawable/selector_add_acount">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/swpu_icon"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:background="@drawable/selector_add_acount"/>
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" -->
+            <!--android:text="西南石油大学"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/black"/>-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/background0"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/ll_scu_icon"
+        android:background="@drawable/selector_add_acount">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/scu_icon"
+            android:scaleType="centerCrop"
+            android:padding='10dp'
+            android:background="@drawable/selector_add_acount"/>
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" -->
+            <!--android:text="西南石油大学"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/black"/>-->
+    </LinearLayout>
+
+</LinearLayout>

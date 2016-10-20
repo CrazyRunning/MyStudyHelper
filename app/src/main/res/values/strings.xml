@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">勤学小助手</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="bt_login">登 录</string>
+    <string name="menu_main_home">勤学小助手</string>
+    <string name="menu_main_personal">个人信息</string>
+    <string name="menu_main_location">定位</string>
+    <string name="menu_main_map">地图</string>
+    <string name="menu_main_feedback">反馈</string>
+    <string name="menu_main_update">更新</string>
+    <string name="menu_main_about">关于</string>
+    <string name="menu_main_logout">注销</string>
+    <string name="menu_main_exit">退出</string>
+    <string name="menu_main_fuse">常用</string>
+    <string name="menu_main_operation">操作</string>
+    <string name="menu_main_system">系统</string>
+    <string name="title_activity_personal">PersonalActivity</string>
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">放开以刷新</string>
+    <string name="header_hint_refresh_loading">正在刷新&#8230;</string>
+    <string name="header_hint_refresh_time">上次刷新：</string>
+    <string name="footer_hint_load_normal">加载更多</string>
+    <string name="footer_hint_load_ready">放开加载更多</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_course">我的课表</string>
+    <string name="empty"></string>
+    <string name="mon">周一</string>
+    <string name="tue">周二</string>
+    <string name="wen">周三</string>
+    <string name="thu">周四</string>
+    <string name="fri">周五</string>
+    <string name="sta">周六</string>
+    <string name="sun">周日</string>
+    <string name="title_activity_remind">RemindActivity</string>
+    <string name="title_activity_take_release">轻松一刻</string>
+    <string name="title_activity_news_info">NewsInfoActivity</string>
+    <string name="title_activity_movie_info">MovieInfoActivity</string>
+    <string name="title_activity_turing">智能小图</string>
+    <string name="welcome_back">欢迎回来</string>
+    <string name="title_activity_rate">成绩绩点</string>
+    <string name="title_activity_exam">考试信息</string>
+    <string name="title_activity_translate">翻译助手</string>
+    <string-array name="spinner">
+        <item>汉语</item>
+        <item>英语</item>
+        <item>日语</item>
+        <item>西班牙语</item>
+        <item>法语</item>
+        <item>韩语</item>
+        <item>泰语</item>
+        <item>阿拉伯语</item>
+        <item>俄语</item>
+        <item>葡萄牙语</item>
+        <item>德语</item>
+        <item>希腊语</item>
+        <item>荷兰语</item>
+        <item>波兰语</item>
+        <item>瑞典语</item>
+        <item>意大利语</item>
+        <item>文言文</item>
+        <item>繁体中文</item>
+    </string-array>
+    <string name="title_activity_roll">培养方案</string>
+    <string name="title_activity_change_password">修改密码</string>
+    <string name="personal_change_passwd_submit">提交</string>
+    <string name="personal_change_passwd_oldpasswd">旧密码</string>
+    <string name="personal_change_passwd_newpasswd1">新密码</string>
+    <string name="personal_change_passwd_newpasswd2">再一次</string>
+    <string name="title_activity_bnguide">导航</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/child"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/system_master_list_header_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/list_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="大学英语（创意阅读）-4-264 "
+        android:textColor="#222"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/list_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="时间：10周周6，14:00-16:00"
+        android:textColor="#0088bb"
+        android:textSize="14dp" />
+    
+    <TextView
+        android:id="@+id/list_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:text="地点：江安一教C座，C407"
+        android:textColor="#0088bb"
+        android:textSize="14dp" />
+
+</LinearLayout>
