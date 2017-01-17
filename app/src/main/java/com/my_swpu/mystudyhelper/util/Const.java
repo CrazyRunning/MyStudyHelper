@@ -10,8 +10,8 @@ public class Const {
     public static double LONGITUDE_OF_MY_LOCATION;                     //经度
     public static String BAIDU_API_KEY = "4bnt9GVp1V7hyqDBugqoP9lK";
     public static final int GET_MY_LOCAZTION_EVENT = EVENTCODE++;      //定位
-    public static final String API_KEY = "945bfa56dbbde488af04a4a61934ef5c";  //api key
-    public static final String KEY_1 = "7d9fbeb43e975cd1e9477a7e5d5e192a";
+    public static final String API_KEY = "你的apiKey";  //api key
+    public static final String KEY_1 = "你的apiKey";
     public static final String KEY_STATUS = "KEY_STATUS";
     public static final String KEY_DATA = "KEY_DATA";
     //新闻
@@ -32,8 +32,8 @@ public class Const {
     //图灵
     public static final  String TURING_MESSAGE = "TURING_MESSAGE";
     public static final  int TURING_TEXT = 100000;
-    public final static String APIKEY = "bb54672a7fc0b187f54bb51cdae945af";    //以前的api key
-    public static final String KEY = "879a6cb3afb84dbf4fc84a1df2ab7319";       //key
+    public final static String APIKEY = "你的apiKey";    //以前的api key
+    public static final String KEY = "你的apiKey";       //key
     public final static String USERID = "eb2edb736";    //
     //个人信息
     public static final int PERSONALINFO_EVENT = EVENTCODE++;
@@ -46,8 +46,8 @@ public class Const {
     //翻译
     public static final String TRANSLATW_ACTION = "TRANSLATW_ACTION";
     public static final int TRANSLATE_EVENT= EVENTCODE++;
-    public static final String APPID = "20160511000020685";
-    public static final String TRANSLATE_PASSWORD = "TNzTV1kWYytt1qmdfeMB";
+    public static final String APPID = "你的appId";  //百度反意思的appId
+    public static final String TRANSLATE_PASSWORD = "你的apiKey";  //百度翻译的apikey
     //培养方案
     public static final int GET_PLANS_ACTION = EVENTCODE++;
     //修改密码
